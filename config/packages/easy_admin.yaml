@@ -1,0 +1,11 @@
+easy_admin:
+  entities:
+    Borrowing:
+      class: App\Entity\Borrowing
+      # Other entity configurations...
+
+      # Define actions configuration
+      actions:
+        - name: 'show'
+          label: 'Show'
+          icon: 'fa fa-eye'
